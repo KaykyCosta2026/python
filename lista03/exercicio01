@@ -1,5 +1,0 @@
-#valor 10 em uma variável A e o valor 20 em uma variável Bvtroque os conteúdos
-B = 20
-C = A
-A = B
-B = C
