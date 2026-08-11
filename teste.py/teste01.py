@@ -17,12 +17,12 @@ while True:
     
     tela.fill((6, 1, 0))
     pygame.display.update()
+pygame.draw.rect(tela, (255, 0, 0), (200, 365, 50, 50))
+    
 
-    pygame.draw.rect(tela, (255, 0, 0), (200, 365, 50, 50))
-
-    pygame.draw.circle(tela, (0, 255, 0), (330, 375), 40)
+pygame.draw.circle(tela, (0, 255, 0), (330, 375), 40)
 
 
-    pygame.draw.line(tela, (255, 255, 0), (1, 450), (690, 450 ), 70)
-
-    pygame.display.update()
+pygame.draw.line(tela, (255, 255, 0), (1, 450), (690, 450 ), 70)
+tela.fill((6, 1, 0))
+pygame.display.update()
